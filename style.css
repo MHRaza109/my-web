@@ -1,0 +1,165 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(backgroung.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+    font-family: poppins;
+}
+
+.main {
+    justify-content: center;
+    width: 85%;
+    align-items: center;
+    margin: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    font-weight: 600;
+}
+
+.skilled {
+    display: flex;
+    margin-top: 55px;
+
+}
+
+.skilled-prof {
+    width: 70%;
+    font-family: poppins;
+    margin-right: 30px;
+
+}
+
+.skilled-prof-left {
+    font-weight: 900;
+    font-size: 45px;
+    color: #38495A;
+}
+
+span {
+    color: rgb(248, 98, 2);
+}
+
+.skilled-right {
+    border-radius: 10px;
+    width: 30%;
+    background: url(./book-form.jpg);
+    background-repeat: no-repeat;
+}
+
+.right-sec {
+    width: 30%;
+    border-radius: 10px;
+    background-image: url(./book-form.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 10px;
+    text-align: center;
+    
+}
+
+.book {
+    color: white;
+    margin: 10px auto;
+}
+
+.form-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    width: 80%;
+}
+
+.inputs {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 5px 0;
+    width: 320px;
+}
+
+select#input {
+    margin: 5px 0;
+    border-radius: 5px;
+    Border: none;
+    width: 100%;
+    color: #505050;
+    font-size: 1rem;
+    padding: 8px;
+}
+
+.button-req {
+    background-color:rgb(248, 98, 2);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.ourtopservice{
+    text-align: center;
+    margin-top: 60px; 
+}
+
+.service{
+    font-weight: 600;
+    font-size: larger;
+}
+
+.card{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-icon{
+    border: 1px solid rgb(124, 124, 124);
+    text-align: center;
+    border-radius: 10px;
+    width: 100px;
+    line-height: 20px;
+    margin: 10px;
+    padding: 15px;
+    display: table-cell;
+    
+}
+
+.Recommended{
+    text-align: center;
+    margin-top: 30px;
+     
+}
+
+.Recommended-ser{
+    font-weight: 600;
+    font-size: larger;
+}
